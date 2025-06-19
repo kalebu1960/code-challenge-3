@@ -1,0 +1,151 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #006600;
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 1px 1px #bbbbbb;
+}
+
+h2 {
+  color: #bb0000;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+}
+
+#post-list {
+  border-right: 3px solid #006600;
+  padding: 10px;
+}
+
+#post-list div {
+  padding: 10px;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+#post-list div:hover {
+  background-color: #f2f2f2;
+}
+
+#post-detail {
+  padding: 10px;
+}
+
+#new-post-form {
+  border: 3px solid #006600;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #fafafa;
+}
+
+#new-post-form h3 {
+  color: #bb0000;
+}
+
+#new-post-form input,
+#new-post-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+
+#new-post-form button {
+  background-color: #006600;
+  color: #ffffff;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+#new-post-form button:hover {
+  background-color: #004d00;
+}
+
+#edit-post-form {
+  border: 2px solid #bb0000;
+  border-radius: 5px;
+  padding: 15px;
+  margin: 15px 0;
+  background-color: #fff0f0;
+}
+
+#edit-post-form h4 {
+  color: #bb0000;
+}
+
+#edit-post-form input,
+#edit-post-form textarea {
+  width: 100%;
+  padding: 8px;
+  border-radius: 3px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+}
+
+#edit-post-form button {
+  padding: 8px 15px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#edit-post-form button[type="submit"] {
+  background-color: #006600;
+  color: #ffffff;
+}
+
+#edit-post-form button[type="submit"]:hover {
+  background-color: #004d00;
+}
+
+#edit-post-form button[type="button"] {
+  background-color: #555555;
+  color: #ffffff;
+}
+
+#edit-post-form button[type="button"]:hover {
+  background-color: #333333;
+}
+
+#edit-button,
+#delete-button {
+  padding: 8px 15px;
+  font-weight: bold;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#edit-button {
+  background-color: #006600;
+  color: #ffffff;
+}
+
+#edit-button:hover {
+  background-color: #004d00;
+}
+
+#delete-button {
+  background-color: #bb0000;
+  color: #ffffff;
+}
+
+#delete-button:hover {
+  background-color: #800000;
+}
