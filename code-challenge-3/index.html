@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Blog Post Manager</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <h1>📓 My Blog</h1>
+  <div id="container" style="display: flex; gap: 20px;">
+    <div id="post-list" style="width: 40%; border-right: 1px solid #ccc;"></div>
+    <div id="post-detail" style="width: 60%; position: relative;">
+      <h2>Click a post title to see details</h2>
+      <div style="margin: 10px 0;">
+        <button id="edit-button" style="display: none;" class="bg-yellow-500">Edit</button>
+        <button id="delete-button" style="display: none;" class="bg-red-500">Delete</button>
+      </div>
+      <form id="edit-post-form" style="display: none;">
+        <h4>Update Post Details</h4>
+        <label for="edit-title">Title:</label>
+        <input type="text" name="title" id="edit-title" class="p-2 border rounded-md w-full mb-2" />
+        <label for="edit-content">Content:</label>
+        <textarea name="content" id="edit-content" rows="5" class="p-2 border rounded-md w-full mb-4"></textarea>
+        <div style="margin: 10px 0;">
+          <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md">Update Post</button>
+          <button type="button" id="cancel-edit" class="bg-gray-400 hover:bg-gray-600 text-white font-bold py-2 px-4 rounded-md ml-2">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <hr />
+  <form id="new-post-form">
+    <h3>Add a New Post</h3>
+    <input name="title" placeholder="Post Title" required />
+    <input name="author" placeholder="Author" required />
+    <textarea name="content" placeholder="Post content..." required></textarea>
+    <button type="submit">Post it</button>
+  </form>
+  <script src="src/index.js" defer></script>
+</body>
+</html>
