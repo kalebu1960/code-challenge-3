@@ -1,34 +1,40 @@
 {
   "posts": [
     {
-      "id": 1,
+      "id": "1",
       "title": "Nairobi Nights",
       "content": "Stories from the city under the stars...",
       "author": "Caleb"
     },
     {
-      "id": 2,
-      "title": "JavaScript is Magic",
-      "content": "How I fell in love with code 🧙🏽‍♂️",
-      "author": "Joan"
-    },
-    {
       "title": "ruaka",
       "author": "ndegwa",
       "content": "rich jobless ",
-      "id": 3
+      "id": "3"
     },
     {
       "title": "mirema",
       "author": "jaka bb",
       "content": "young millionaires",
-      "id": 4
+      "id": "4"
     },
     {
       "title": "quiver thika road",
       "author": "kane",
       "content": "rice  in the lounge",
-      "id": 5
+      "id": "5"
+    },
+    {
+      "title": "eastleigh",
+      "author": "caleb",
+      "content": "gssggsg",
+      "id": "6"
+    },
+    {
+      "title": "kilimani",
+      "author": "caleb",
+      "content": "good bab",
+      "id": "7"
     }
   ]
 }
